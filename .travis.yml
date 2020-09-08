@@ -1,0 +1,10 @@
+language: php
+
+php:
+  - "7.4"
+
+install:
+  - travis_retry composer install --no-interaction --prefer-dist --no-progress --no-suggest
+
+script:
+  - composer ci:test

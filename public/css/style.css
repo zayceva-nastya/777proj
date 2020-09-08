@@ -1,0 +1,107 @@
+.table td {
+    border: 2px solid black;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.form textarea {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: block;
+    margin: 20px;
+}
+
+.form input[type='text'] {
+    background-color: lightgray;
+    display: block;
+    margin: 20px;
+}
+
+.form input[type='submit'] {
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+}
+
+.form {
+    margin: 20px;
+    padding: 25px;
+}
+
+.guestbookform label {
+    display: block;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#addForm label {
+    display: block;
+}
+
+#addForm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+    background-color: cadetblue;
+    z-index: 2;
+}
+
+#shadow {
+    position: fixed;
+    padding: 20px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logAlert {
+    /* border: 1px solid red !important; */
+    background-color: rgb(238, 140, 140);
+
+}
+
+#loginform input {
+    display: block;
+}
+
+.hello {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../image/black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#homefit{
+    font-family: Satisfy !important;
+    font-size: 2rem;
+}
+
+.tableworkots tr td {
+    background-color: rgba(176, 0, 161, 255) !important;
+    display: block !important;
+    border: none;
+}
+
+.tableworkots tr td:first-child {
+    font-size: 2rem;
+}
+.menu{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
